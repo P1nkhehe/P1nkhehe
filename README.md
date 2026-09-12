@@ -2,7 +2,7 @@
 
 **Aspiring SOC Analyst** · BS Information Technology, Major in Information and Network Security · University of Makati
 
-I build and document security monitoring labs — deploying SIEMs, generating attack telemetry, writing detection logic, and wiring up alerting — to practise the detection and response workflow end to end. Everything below is fully written up with architecture diagrams, configuration, and screenshots.
+I build and document security monitoring labs where i deploy SIEMs, generate attack telemetry, write detection logic, and wire up alerting to practise the detection and response workflow end to end. Everything below is fully written up with architecture diagrams, configuration, and screenshots.
 
 ## Projects
 
