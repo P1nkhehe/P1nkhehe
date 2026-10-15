@@ -16,14 +16,14 @@ Splunk Enterprise as the SIEM, with Sysmon and Windows Security event logs forwa
 
 BSIT capstone (Project Technical Lead): an enterprise WAN-LAN infrastructure with multi-ISP failover, FortiGate high availability, HSRP, VLAN segmentation, and site-to-site IPsec VPN — monitored with **Wazuh** for file integrity, vulnerability detection, CIS benchmarking, and VirusTotal-integrated malware response. Validated with SSH brute-force, EICAR, and web application attack simulations, and evaluated against ISO/IEC standards.
 
-`Wazuh` `FortiGate` `HSRP` `IPsec VPN` `VLAN` `GNS3` `VMware` `Burp Suite` `sqlmap` `ISO/IEC 27001`
+`Wazuh` `FortiGate` `HSRP` `IPsec VPN` `VLAN` `VMware` `Burp Suite` `sqlmap` `ISO/IEC 27001`
 
 ## Skills
 
 | Area | Tools & concepts |
 |---|---|
 | **SIEM & Detection** | Splunk (SPL, scheduled alerting), Wazuh (log collection, FIM, vulnerability detection, SCA, Active Response), Sysmon, Windows Event Log, MITRE ATT&CK |
-| **Network Security** | FortiGate (policies, web filtering, application control, IPS, HA, VPN), TCP/IP, VLAN segmentation, HSRP, IPsec, multi-ISP failover, Cisco Packet Tracer, GNS3 |
+| **Network Security** | FortiGate (policies, web filtering, application control, IPS, HA, VPN), TCP/IP, VLAN segmentation, HSRP, IPsec, multi-ISP failover, Cisco Packet Tracer |
 | **Systems & Tooling** | Linux (Ubuntu), Windows 10, VMware, Kali Linux, Burp Suite, sqlmap, VirusTotal API |
 
 ## Currently
