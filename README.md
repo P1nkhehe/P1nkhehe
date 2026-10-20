@@ -12,6 +12,13 @@ Splunk Enterprise as the SIEM, with Sysmon and Windows Security event logs forwa
 
 `Splunk` `SPL` `Sysmon` `Universal Forwarder` `Hydra` `Kali Linux` `MITRE ATT&CK`
 
+
+<span style="color:red;">The updated Splunk home lab write-up now includes six incident reports, a native Wazuh marker response and a manual API marker request from the Splunk VM. Splunk alert-driven containment is the next stage, not a completed feature.</span>
+
+From this I learned that these certificates are what verify the identity of the server while the user, password, and tokens are what identify the person or program that is making the request.
+
+[My Splunk Homelab Documentation](https://github.com/P1nkhehe/Splunk-Home-Lab/blob/main/docs/updated-lab-documentation.md)
+
 ### [Enterprise Network Security Capstone](https://github.com/P1nkhehe/enterprise-network-security-capstone)
 
 BSIT capstone (Project Technical Lead): an enterprise WAN-LAN infrastructure with multi-ISP failover, FortiGate high availability, HSRP, VLAN segmentation, and site-to-site IPsec VPN — monitored with **Wazuh** for file integrity, vulnerability detection, CIS benchmarking, and VirusTotal-integrated malware response. Validated with SSH brute-force, EICAR, and web application attack simulations, and evaluated against ISO/IEC standards.
