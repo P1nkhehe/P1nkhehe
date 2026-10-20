@@ -8,16 +8,9 @@ I build and document security monitoring labs where i deploy SIEMs, generate att
 
 ### [Splunk SOC Home Lab — SIEM Detection & Alerting](https://github.com/P1nkhehe/Splunk-Home-Lab)
 
-Splunk Enterprise as the SIEM, with Sysmon and Windows Security event logs forwarded from a monitored endpoint through the Universal Forwarder. Simulated an RDP brute-force attack with Hydra, wrote SPL detection logic on EventCode 4625, scheduled it as an alert mapped to **MITRE ATT&CK T1110**, and pushed notifications to Discord through a webhook script.
+Splunk Enterprise as the SIEM, with Sysmon and Windows Security event logs forwarded from a monitored endpoint through the Universal Forwarder. Simulated an RDP brute-force attack with Hydra, wrote SPL detection logic on EventCode 4625, scheduled it as an alert mapped to **MITRE ATT&CK T1110**, and pushed notifications to Discord through a webhook script. <span style="color:red;">Expanded the lab with Wireshark network analysis, six incident reports, and Wazuh Active Response. Verified a marker response triggered by a Wazuh detection and a manual API marker request from the Splunk VM, using TLS certificates and an API account with permissions restricted to agent 001.</span>
 
-`Splunk` `SPL` `Sysmon` `Universal Forwarder` `Hydra` `Kali Linux` `MITRE ATT&CK`
-
-
-<span style="color:red;">The updated Splunk home lab write-up now includes six incident reports, a native Wazuh marker response and a manual API marker request from the Splunk VM. Splunk alert-driven containment is the next stage, not a completed feature.</span>
-
-From this I learned that these certificates are what verify the identity of the server while the user, password, and tokens are what identify the person or program that is making the request.
-
-[My Splunk Homelab Documentation](https://github.com/P1nkhehe/Splunk-Home-Lab/blob/main/docs/updated-lab-documentation.md)
+`Splunk` `SPL` `Sysmon` `Universal Forwarder` `Hydra` `Kali Linux` `MITRE ATT&CK` `Wireshark` `Wazuh` `Active Response` `PowerShell` `REST API` `RBAC` `OpenSSL` `TLS`
 
 ### [Enterprise Network Security Capstone](https://github.com/P1nkhehe/enterprise-network-security-capstone)
 
